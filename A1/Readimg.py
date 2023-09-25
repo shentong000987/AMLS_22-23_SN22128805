@@ -11,6 +11,6 @@ def img_reader(input_dir):
         data.append(img.flatten())
     data = np.array(data)
 
-    print(data)
+    print(data.size)
     
     return data

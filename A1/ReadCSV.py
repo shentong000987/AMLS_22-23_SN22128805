@@ -13,6 +13,6 @@ def csv(file_path, column_name):
     #change the list to Num array for later use
     labels = np.array(column_data)
 
-    print(labels)
+    print(labels.size)
 
     return labels

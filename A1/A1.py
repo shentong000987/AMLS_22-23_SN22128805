@@ -54,7 +54,7 @@ print('{}% of samples were correctly classified'.format(str(score * 100)))
 
 with open('genderdetection_model.pkl', 'wb') as file:
     pickle.dump(best_genderdetection, file)
-'''
+
 
 svm_classifier = SVC(kernel='linear')
 
@@ -65,5 +65,6 @@ y_pred = svm_classifier.predict(data_test)
 accuracy = accuracy_score(labels_test, y_pred)
 print(f"Accuracy: {accuracy:.2f}")
 
-with open('linear_model.pkl', 'wb') as file:
+with open('linear_model_2.pkl', 'wb') as file:
     pickle.dump(svm_classifier, file)
+'''
